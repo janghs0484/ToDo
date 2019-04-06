@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <title>Vue</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href=".\base.css">
+  </head>
+  <body>
+
+    <header class = "logo">
+      <img src="./TODOLOGO.png" class="logo" alt="LOGO" >
+    </header>
+
+    <div id = "contents" class = "contents">
+      <!--리스트 창-->
+      <nav>
+
+      </nav>
+      <!--컨탠츠 창-->
+      <main class="postList">
+          <div class = "post" id = "posts" v-for="post in posts">
+            {{ post.text }}
+          </div>
+      </main>
+      <!--개인 창-->
+      <aside>
+        <p v-if="login==true">오늘의 할일 :</p>
+
+        <div class="loginFrame" v-else>
+          <p class="state" >로그인이 필요합니다.</p>
+          <div class="loginBox">
+            <form action=".\login.php" method="post" class="typeUserInfo">
+              <input type="text" name="ID" placeholder="username"></input>
+              <input type="password" name="PW" placeholder="password"></input>
+            </form>
+            <input type="submit" name="login" value="Login" class="loginButton">
+          </div>
+          <div class="loginHelps">
+            <a href="#" class="findAcount">계정 문제</a>
+            <a>또는</a>
+            <a href="#" class="gotoRegister">회원가입</a>
+          </div>
+        </div>
+
+          <div v-if="login==true" v-for="todo in todos">{{ todo.text }}</div>
+      </aside>
+    </div>
+
+    <footer class="foot">
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.2/dist/vue.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

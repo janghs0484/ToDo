@@ -1,0 +1,97 @@
+@@font-face {
+  font-family: 'Tmon몬소리 black';
+  src:url("./TmonMonsori.ttf");
+}
+
+body{
+  margin: 0px;
+  background-color: #FFFFFF;
+}
+/*============================================*/
+.logo{
+  height: 200px;
+  border-bottom: 10px solid #77FF97;
+  background: #DEFFE3;
+  text-align: center;
+}
+.logo img{
+  margin: 20px;
+  height: 150;
+  width: 200;
+  border: 0;
+}
+/*============================================*/
+.contents{
+  display: flex;
+}
+/*============================================*/
+nav{
+  width: 15%;
+  height: 500px;
+  border-right: 4px solid #77FF97;
+}
+main{
+  width: 70%;
+  height: 500px;
+}
+aside{
+  font-size: 20px;
+  width: 15%;
+  height: 500px;
+  border-left: 4px solid #77FF97;
+}
+/*============================================*/
+
+/*============================================*/
+.postList{
+  display: flex;
+  flex-direction: column;
+}
+.post{
+  background: #F3FFF5;
+  padding: 8px;
+  height: 50px;
+  margin: 8px;
+  border: 4px solid #77FF97;
+}
+/*============================================*/
+.loginFrame{
+  margin: 5px;
+}
+.state{
+  margin: 5;
+  font-family: 'Tmon몬소리 black';
+  font-size: 15px;
+}
+.loginHelps{
+  margin: 5px;
+}
+.loginHelps a{
+  color: #000000;
+  font-size: 10px;
+  text-decoration: none;
+}
+.loginBox{
+  display: flex;
+  height: 50px;
+  margin-left: 5px;
+}
+.typeUserInfo input{
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  margin-bottom: 6px;
+  outline: none;
+}
+.loginButton{
+  background: #EEEEEE;
+  border: 0px;
+  border-radius: 5px;
+}
+/*============================================*/
+.foot{
+  border-top: 2px solid #CCCCCC;
+  width: 100%;
+  height: 200px;
+  background: #EEEEEE;
+}
