@@ -9,15 +9,12 @@ body{
 }
 /*============================================*/
 .logo{
-  height: 200px;
   border-bottom: 10px solid #77FF97;
   background: #DEFFE3;
   text-align: center;
 }
 .logo img{
   margin: 20px;
-  height: 150;
-  width: 200;
   border: 0;
 }
 /*============================================*/
