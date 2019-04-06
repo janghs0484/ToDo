@@ -34,7 +34,7 @@ var app = new Vue({
         state: '지키지 못'},
         
     ],
-    login: true
+    login: false
   },
    methods: {
      addNewTodo: function () {
