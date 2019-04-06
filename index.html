@@ -18,7 +18,7 @@
       <!--컨탠츠 창-->
       <main class="postList">
           <div class = "post" id = "posts" v-for="post in posts">
-            {{ post.text }}
+            {{ post.date }}{{ post.nick }}님께서 "{{ post.schedule }}"목표를 {{ post.state }}하셨습니다.
           </div>
       </main>
       <!--개인 창-->
