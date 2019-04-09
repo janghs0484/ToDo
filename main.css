@@ -1,0 +1,125 @@
+@@font-face {
+  font-family: 'Tmon몬소리 black';
+  src:url("./TmonMonsori.ttf");
+}
+
+body{
+  margin: 0px;
+  background-color: #FFFFFF;
+}
+/*============================================*/
+.logo{
+  border-bottom: 10px solid #77FF97;
+  background: #DEFFE3;
+  text-align: center;
+}
+.logo img{
+  margin: 20px;
+  border: 0;
+}
+/*============================================*/
+.contents{
+  display: flex;
+}
+/*============================================*/
+nav{
+  width: 15%;
+  height: 500px;
+  border-right: 4px solid #77FF97;
+}
+main{
+  width: 70%;
+  height: 500px;
+}
+aside{
+  font-size: 20px;
+  width: 15%;
+  height: 500px;
+  border-left: 4px solid #77FF97;
+}
+/*============================================*/
+
+/*============================================*/
+.postList{
+  display: flex;
+  flex-direction: column;
+}
+.post{
+  background: #F3FFF5;
+  padding: 8px;
+  height: 50px;
+  margin: 8px;
+  border: 4px solid #77FF97;
+  border-radius: 15px;
+}
+/*============================================*/
+.loginFrame{
+  padding: 5px;
+}
+.state{
+  margin: 5;
+  font-family: 'Tmon몬소리 black';
+  font-size: 15px;
+}
+.loginHelps{
+  margin: 5px;
+}
+.loginHelps a{
+  color: #000000;
+  font-size: 10px;
+  text-decoration: none;
+}
+.loginBox{
+  display: flex;
+  height: 50px;
+  margin-left: 5px;
+  margin-bottom: 0px;
+}
+.typeUserInfo input{
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  margin-bottom: 5px;
+  outline: none;
+}
+.loginButton{
+  background: #EEEEEE;
+  border: 0px;
+  border-radius: 5px;
+  outline: none;
+}
+.loginButton:active{
+  background: #FEFEFE;
+  color: #999999;
+}
+/*============================================*/
+.todayWorksFrame{
+font-family: 'Tmon몬소리 black';
+}
+.todayWorks{
+  margin-top: 5px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+  font-size: 20px;
+  border-bottom: 2px dotted #555555;
+}
+.todoList{
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+  border-bottom: 1px solid #CCCCCC;
+  color: #000000;
+  font-size: 15px;
+  text-decoration: none;
+}
+/*============================================*/
+.foot{
+  border-top: 2px solid #CCCCCC;
+  width: 100%;
+  height: 200px;
+  background: #EEEEEE;
+}

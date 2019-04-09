@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>ToDo - Register</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href=".\regi.css">
+  </head>
+  <body>
+
+    <header class = "logo">
+      <a href="./main.html"><img src="./TODOLOGO.png" class="logo" alt="LOGO"></a>
+    </header>
+
+    <div id = "contents" class = "contents">
+      <!--리스트 창-->
+      <nav>
+
+      </nav>
+      <!--컨탠츠 창-->
+      <main class="registerFrame">
+        <div v-for="term in terms" class="termCheckFrame">
+          <div v-html="term.term" class="terms">
+            {{ term.term }}
+          </div>
+        </div>
+      </main>
+      <!--개인 창-->
+      <aside>
+
+      </aside>
+    </div>
+
+    <footer class="foot">
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.2/dist/vue.js"></script>
+    <script src="./regi.js"></script>
+  </body>
+</html>

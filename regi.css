@@ -1,0 +1,59 @@
+@@font-face {
+  font-family: 'Tmon몬소리 black';
+  src:url("./TmonMonsori.ttf");
+}
+
+body{
+  margin: 0px;
+  background-color: #FFFFFF;
+}
+/*============================================*/
+.logo{
+  border-bottom: 10px solid #77FF97;
+  background: #DEFFE3;
+  text-align: center;
+}
+.logo img{
+  margin: 20px;
+  border: 0;
+}
+/*============================================*/
+.contents{
+  display: flex;
+}
+/*============================================*/
+nav{
+  width: 15%;
+  border-right: 4px solid #77FF97;
+}
+main{
+  width: 70%;
+}
+aside{
+  font-size: 20px;
+  width: 15%;
+  border-left: 4px solid #77FF97;
+}
+/*============================================*/
+.termCheckFrame{
+  margin: 10 10 25 10px;
+  border-radius: 20px;
+  background-color: #DEFFE3;
+  height: 350px;
+  border: 5px solid #77FF97;
+}
+.terms{
+  margin: 35px;
+  padding: 5px;
+  background-color: #FFFFFF;
+  height: 200px;
+  border-radius: 10px;
+  overflow: auto;
+}
+/*============================================*/
+.foot{
+  border-top: 2px solid #CCCCCC;
+  width: 100%;
+  height: 200px;
+  background: #EEEEEE;
+}
