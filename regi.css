@@ -35,8 +35,56 @@ aside{
   border-left: 4px solid #77FF97;
 }
 /*============================================*/
+.stepsFrame{
+  display: flex;
+  margin: 20 5 0 5px;
+}
+.notNowStep{
+  font-family: 'Tmon몬소리 black';
+  font-size: 20px;
+  margin: 0 10 0 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 400px;
+  height: 30px;
+  text-align: center;
+  background-color: #F2FFF5;
+  color: #DDDDDD;
+  -ms-user-select: none;
+  -moz-user-select: -moz-none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  user-select:none;
+}
+.nowStep{
+  font-family: 'Tmon몬소리 black';
+  font-size: 20px;
+  margin: 0 10 0 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 400px;
+  height: 30px;
+  text-align: center;
+  background-color: #77FF97;
+  color: #FFFFFF;
+  font:
+  -ms-user-select: none;
+  -moz-user-select: -moz-none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  user-select:none;
+}
+.stepLine{
+  margin: 0 5 0 5px;
+  width: auto;
+  border: 3px solid #DEFFE3;
+}
+.firstRegiFrame{
+  display: flex;
+  flex-direction: column;
+}
 .termCheckFrame{
-  margin: 10 10 25 10px;
+  margin: 30 10 5 10px;
   border-radius: 20px;
   background-color: #DEFFE3;
   height: 350px;
@@ -46,9 +94,80 @@ aside{
   margin: 35px;
   padding: 5px;
   background-color: #FFFFFF;
-  height: 200px;
+  height: 230px;
+  font-size: 12px;
   border-radius: 10px;
   overflow: auto;
+}
+.agree{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 35px;
+}
+.agree p{
+  font-size: 12px;
+  margin: 0px;
+}
+.next{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.gotoNextButton{
+  height: 30px;
+  width: 150px;
+  border-radius: 30px;
+  margin: 15px;
+  border: 3px;
+  background: #77FF97;
+  outline: none;
+}
+.gotoNextButton:active{
+  background: #DEFFE3;
+}
+/*============================================*/
+.secondRegiFrame{
+  margin: 10px;
+}
+.regiInput{
+  margin: 10px;
+  outline: none;
+  height: 30px;
+  border: 1px solid #DDDDDD;
+  border-radius: 30px;
+  padding: 10px;
+}
+/*============================================*/
+.thirdRegiFrame{
+  background: #DEFFE3;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.conglaturation{
+  margin: 80 0 30 0px;
+  font-family: 'Tmon몬소리 black';
+  font-size: 40px;
+  color: #555555;
+  text-align: center;
+}
+.subGuide{
+  color: #AAAAAA;
+  text-align: center;
+  margin: 0 0 0 0px;
+}
+.gotoPlanner{
+  margin: 30px;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: #FFFFFF;
+  background: #77FF97;
+  width: 500px;
+  border-radius: 50px;
+  font-size: 25px;
+  font-family: 'Tmon몬소리 black';
 }
 /*============================================*/
 .foot{
@@ -56,4 +175,7 @@ aside{
   width: 100%;
   height: 200px;
   background: #EEEEEE;
+}
+hr{
+border: 1px solid #DDDDDD;
 }
